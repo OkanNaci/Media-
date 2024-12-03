@@ -25,7 +25,7 @@ function UsersList() {
 
   let content;
   if (isLoadingUsers) {
-    content = <div>{<Skeleton times={6} classIName="h-10 w-full" />}</div>;
+    content = <div>{<Skeleton times={6} className="h-10 w-full" />}</div>;
   } else if (loadingUsersError) {
     content = <div>Error fetching data...</div>;
   } else {
