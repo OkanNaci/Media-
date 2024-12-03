@@ -5,16 +5,18 @@ export function useThunk(thunk) {
   const [error, setError] = useState(null);
   const dispatch = useDispatch();
   const runThunk = useCallback(
-    (arg) => {
+    async (arg) => {
       setIsLoading(true);
-      dispatch(thunk(arg))
+      setError(null);
+      await dispatch(thunk(arg))
         .unwrap()
-        .catch((err) => {
-          setError(true);
-        })
-        .finally(setIsLoading(false));
+        .catch((err) => setError(err))
+        .finally(() => {
+          setIsLoading(false);
+        });
     },
     [dispatch, thunk]
   );
+
   return [runThunk, isLoading, error];
 }

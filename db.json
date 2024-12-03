@@ -1,10 +1,56 @@
 {
   "users": [
     {
-      "id": "6023",
-      "name": "Orlando Jakubowski"
+      "id": "ad41",
+      "name": "Heidi Marquardt"
+    },
+    {
+      "id": "213e",
+      "name": "Ms. Simon VonRueden"
+    },
+    {
+      "id": "73ea",
+      "name": "Ms. Dorothy Schumm"
+    },
+    {
+      "id": "b712",
+      "name": "Esther Schmitt"
+    },
+    {
+      "id": "6c3c",
+      "name": "Scott Robel"
+    },
+    {
+      "id": "f4e1",
+      "name": "Percy Brekke"
     }
   ],
-  "albums": [],
+  "albums": [
+    {
+      "id": "10",
+      "title": "Hiking Trip",
+      "userId": 1
+    },
+    {
+      "id": "6e82",
+      "userId": null,
+      "title": "Electronic Metal Sausages"
+    },
+    {
+      "id": "6c0f",
+      "userId": null,
+      "title": "Sleek Plastic Sausages"
+    },
+    {
+      "id": "1ce8",
+      "userId": "ad41",
+      "title": "Bespoke Bronze Sausages"
+    },
+    {
+      "id": "3983",
+      "userId": "ad41",
+      "title": "Refined Cotton Computer"
+    }
+  ],
   "photos": []
 }
