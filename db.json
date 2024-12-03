@@ -1,14 +1,6 @@
 {
   "users": [
     {
-      "id": "ad41",
-      "name": "Heidi Marquardt"
-    },
-    {
-      "id": "213e",
-      "name": "Ms. Simon VonRueden"
-    },
-    {
       "id": "73ea",
       "name": "Ms. Dorothy Schumm"
     },
@@ -27,49 +19,12 @@
     {
       "id": "da8c",
       "name": "Victoria Deckow"
+    },
+    {
+      "id": "e1ea",
+      "name": "Bill Waters V"
     }
   ],
-  "albums": [
-    {
-      "id": "10",
-      "title": "Hiking Trip",
-      "userId": 1
-    },
-    {
-      "id": "6e82",
-      "userId": null,
-      "title": "Electronic Metal Sausages"
-    },
-    {
-      "id": "6c0f",
-      "userId": null,
-      "title": "Sleek Plastic Sausages"
-    },
-    {
-      "id": "1ce8",
-      "userId": "ad41",
-      "title": "Bespoke Bronze Sausages"
-    },
-    {
-      "id": "3983",
-      "userId": "ad41",
-      "title": "Refined Cotton Computer"
-    },
-    {
-      "id": "5109",
-      "userId": "ad41",
-      "title": "Oriental Steel Pants"
-    },
-    {
-      "id": "962b",
-      "userId": "ad41",
-      "title": "Handcrafted Granite Table"
-    },
-    {
-      "id": "e423",
-      "userId": "ad41",
-      "title": "Handmade Concrete Mouse"
-    }
-  ],
+  "albums": [],
   "photos": []
 }
