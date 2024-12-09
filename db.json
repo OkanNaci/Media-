@@ -25,6 +25,12 @@
       "name": "Bill Waters V"
     }
   ],
-  "albums": [],
+  "albums": [
+    {
+      "id": "1a02",
+      "userId": "73ea",
+      "title": "Refined Frozen Table"
+    }
+  ],
   "photos": []
 }
