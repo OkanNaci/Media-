@@ -1,10 +1,6 @@
 {
   "users": [
     {
-      "id": "73ea",
-      "name": "Ms. Dorothy Schumm"
-    },
-    {
       "id": "b712",
       "name": "Esther Schmitt"
     },
@@ -23,13 +19,56 @@
     {
       "id": "e1ea",
       "name": "Bill Waters V"
+    },
+    {
+      "id": "e994",
+      "name": "Gina Collier"
+    },
+    {
+      "id": "bd33",
+      "name": "Beulah Daugherty"
     }
   ],
   "albums": [
     {
       "id": "1a02",
-      "userId": "73ea",
+      "userId": null,
       "title": "Refined Frozen Table"
+    },
+    {
+      "id": "3f11",
+      "userId": "1a02",
+      "title": "Small Soft Salad"
+    },
+    {
+      "id": "6545",
+      "userId": "b712",
+      "title": "Generic Metal Mouse"
+    },
+    {
+      "id": "eeeb",
+      "userId": "1a02",
+      "title": "Small Steel Cheese"
+    },
+    {
+      "id": "2539",
+      "userId": "1a02",
+      "title": "Fantastic Granite Sausages"
+    },
+    {
+      "id": "b437",
+      "userId": "1a02",
+      "title": "Electronic Bronze Fish"
+    },
+    {
+      "id": "927e",
+      "userId": "1a02",
+      "title": "Refined Frozen Hat"
+    },
+    {
+      "id": "e593",
+      "userId": "b712",
+      "title": "Electronic Plastic Fish"
     }
   ],
   "photos": []
